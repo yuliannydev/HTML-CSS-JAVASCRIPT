@@ -1,0 +1,61 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  text-align: center;
+  padding: 10px;
+}
+header {
+  background-color: #0fbad6;
+  color: #1205e9;
+  padding: 10px;
+}
+.Header {
+  width: 960px;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1 {
+  display: inline-block;
+  width: 400px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+p {
+  display: inline-block;
+  width: 400px;
+  font-weight: 700;
+  font-size: 22px;
+}
+.tiny-description {
+  background-color: #1205e9;
+  color: #ffffff;
+  text-align: justify;
+  height: 175px;
+  padding: 30px;
+  font-size: 20px;
+  margin-top: 0px;
+  display: flex;
+  align-items: center;
+}
+.contenedor {
+  width: 960px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+dt {
+  font-size: 22px;
+  margin-bottom: 12px;
+  margin-top: 36px;
+}
+dd {
+  font-size: 20px;
+}
+div {
+  margin-top: 50px;
+}
