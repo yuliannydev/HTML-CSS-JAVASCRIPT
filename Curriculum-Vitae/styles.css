@@ -3,17 +3,13 @@ body {
   margin: 0;
   text-align: center;
   padding: 10px;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
 }
 header {
   background-color: #0fbad6;
   color: #1205e9;
-  padding: 10px;
-}
-.Header {
-  width: 960px;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 h1 {
   display: inline-block;
@@ -41,11 +37,7 @@ p {
   display: flex;
   align-items: center;
 }
-.contenedor {
-  width: 960px;
-  height: 200px;
-  margin-left: auto;
-  margin-right: auto;
+main {
   text-align: justify;
 }
 dt {
@@ -57,5 +49,13 @@ dd {
   font-size: 20px;
 }
 div {
-  margin-top: 50px;
+  margin-top: 10px;
+}
+footer {
+  color: #1205e9;
+  width: 100vh;
+  height: 50px;
+
+  text-align: center;
+  font-size: 22px;
 }
