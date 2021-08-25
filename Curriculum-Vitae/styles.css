@@ -1,11 +1,10 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  margin: 0;
+  height: 0;
   text-align: center;
-  padding: 10px;
-  width: 960px;
-  margin-left: auto;
-  margin-right: auto;
+  padding: 0;
+  width: 80%;
+  margin: auto;
 }
 header {
   background-color: #0fbad6;
@@ -36,6 +35,8 @@ p {
   margin-top: 0px;
   display: flex;
   align-items: center;
+  justify-content: center;
+  line-height: 1.5em;
 }
 main {
   text-align: justify;
@@ -52,10 +53,13 @@ div {
   margin-top: 10px;
 }
 footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: #1205e9;
-  width: 100vh;
   height: 50px;
-
   text-align: center;
   font-size: 22px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
