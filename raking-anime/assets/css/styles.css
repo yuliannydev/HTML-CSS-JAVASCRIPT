@@ -1,0 +1,71 @@
+/* Selectores de Nombres */
+
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+}
+
+/* td {
+  border: solid 1px;
+} */
+
+/* tr {
+  background-color: teal;
+} */
+
+th {
+  background-color: tomato;
+}
+
+/* Selectores de Clases */
+
+.title {
+  text-transform: uppercase;
+  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
+}
+/* Gradient */
+.container {
+  color: black;
+  background: #8360c3; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2ebf91,
+    #8360c3
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: auto;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  max-width: 60%;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+
+.table td,
+.table th {
+  padding: 1em;
+  text-align: left;
+}
+/* pseudo-class */
+
+.table tr:nth-child(even) {
+  background-color: #f3f3f3;
+} // TODO Verificar el par e impar y sus colores
+/* Selectores de ID */
