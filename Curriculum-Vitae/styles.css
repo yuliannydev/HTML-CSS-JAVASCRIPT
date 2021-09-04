@@ -2,7 +2,9 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   text-align: center;
   padding: 0;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
   box-sizing: border-box;
   line-height: 1.5em;
 }
@@ -12,7 +14,6 @@ header {
 }
 h1 {
   display: inline-block;
-  width: 400px;
   font-weight: 700;
   text-align: right;
 }
@@ -25,7 +26,6 @@ h2 {
 }
 p {
   display: inline-block;
-  width: 400px;
   font-weight: 700;
   font-size: 22px;
 }
@@ -34,7 +34,7 @@ p {
   color: #ffffff;
   text-align: justify;
   height: 175px;
-  padding: 30px;
+  padding: 20px;
   font-size: 20px;
   margin-top: 0px;
   display: inline-block;
@@ -53,7 +53,7 @@ dt {
 dd {
   font-size: 20px;
 }
-div {
+section {
   margin-top: 10px;
 }
 footer {
