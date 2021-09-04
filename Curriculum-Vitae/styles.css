@@ -1,10 +1,10 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
-  height: 0;
   text-align: center;
   padding: 0;
-  width: 80%;
-  margin: auto;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5em;
 }
 header {
   background-color: #0fbad6;
@@ -14,10 +14,14 @@ h1 {
   display: inline-block;
   width: 400px;
   font-weight: 700;
+  text-align: right;
 }
-h3 {
+h2 {
   font-size: 36px;
   font-weight: 700;
+  padding-top: 45px;
+  line-height: 1em;
+  text-align: left;
 }
 p {
   display: inline-block;
@@ -33,13 +37,13 @@ p {
   padding: 30px;
   font-size: 20px;
   margin-top: 0px;
-  display: flex;
+  display: inline-block;
   align-items: center;
   justify-content: center;
-  line-height: 1.5em;
 }
 main {
   text-align: justify;
+  padding: 1.5rem;
 }
 dt {
   font-size: 22px;
